@@ -1,0 +1,31 @@
+{
+  "name": "ant-downloader",
+  "version": "1.0.0",
+  "description": "parallel download file",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --fix .",
+    "test": "node ./test/test.js"
+  },
+  "author": "Hongcai Deng",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.5.0",
+    "content-range": "^1.1.0",
+    "debug": "^2.6.8",
+    "fs-extra": "^4.0.0",
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "eslint": "^4.2.0",
+    "eslint-plugin-node": "^5.1.0",
+    "mocha": "^3.4.2"
+  },
+  "peerDependencies": {
+    "request": "^2.81.0",
+    "urllib": "^2.22.0"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  }
+}
